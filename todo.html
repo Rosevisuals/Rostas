@@ -9,19 +9,21 @@
 <body>
     <div class="todo-container">
         <h1>To-Do List</h1>
-        <div class="input-container">
-            <input type="text" id="todo-input" placeholder="Add a new task...">
-            <button id="add-btn">Add</button>
-        </div>
-        <div class="filter">
-            <label for="filter-tasks">Filter Tasks:</label>
-            <select id="filter-tasks">
-                <option value="all">All</option>
-                <option value="completed">Completed</option>
-                <option value="uncompleted">Uncompleted</option>
-            </select>
-        </div>
-        <ul id="todo-list"></ul>
+    <div class="input-container">
+        <input type="text" id="todo-input" placeholder="Add a new task...">
+        <input type="date" id="todo-date" placeholder="Select a date">
+        <input type="time" id="todo-time" placeholder="Select a time">
+        <button id="add-btn">Add</button>
+    </div>
+    <div class="filter">
+        <label for="filter-tasks">Filter Tasks:</label>
+        <select id="filter-tasks">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="uncompleted">Uncompleted</option>
+        </select>
+    </div>
+    <ul id="todo-list"></ul>
     </div>
 
     <script src="todo.js"></script>

@@ -101,3 +101,8 @@ li button:hover {
     padding: 5px;
     border-radius: 5px;
 }
+.input-container input[type="date"],
+.input-container input[type="time"] {
+    margin-left: 5px;
+    padding: 5px;
+}
